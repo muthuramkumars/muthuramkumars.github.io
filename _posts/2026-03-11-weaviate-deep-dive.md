@@ -1,3 +1,9 @@
+---
+layout: post
+title: Weaviate Deep Dive
+tags: [llm, vector database]
+---
+
 # Deep Dive: How Weaviate Really Works Under the Hood
 
 ### From filtered vector search to storage engines — a complete technical walkthrough from ingestion to retrieval
