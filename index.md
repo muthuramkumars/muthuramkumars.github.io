@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-# Muthu Ramkumar
-
 AI Engineer working on **LLM systems, RAG pipelines, and multi-agent architectures**.
 
 ## Links
