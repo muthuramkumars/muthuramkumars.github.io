@@ -3,6 +3,40 @@ layout: default
 title: Home
 ---
 
+<style>
+:root {
+  --bg: #F2DFC0;
+  --surface: #E8C99A;
+  --deep: #D4A96A;
+  --border: #B87D3E;
+  --text: #2E1A0A;
+  --muted: #7A4A1E;
+  --accent: #C05A1A;
+  --link: #A03D0C;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Georgia, serif;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+/* removes the clickable site title link */
+header a, .site-title a {
+  pointer-events: none;
+  text-decoration: none;
+  color: var(--muted);
+}
+
+a { color: var(--link); }
+h2 { color: var(--muted); border-bottom: 1px solid var(--deep); padding-bottom: 0.3rem; }
+</style>
+
+<div class="site-name">Muthuramkumar S</div>
+
 AI / ML Engineer focused on LLMs, RAG systems and agentic frameworks.
 
 I design, build and ship production GenAI systems
